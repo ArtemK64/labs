@@ -1,0 +1,6 @@
+98472 Finance Ivanov.I.I_Petrov.I.I Flower 2000 354 300 Hardcover
+98473 Economics Petrov.I.I_Sidorov.I.I Rose 2005 690 450 Hardcover
+98474 Self-development Petrov.I.P Rose 2002 354 250 Hardcover
+98475 Physics Ivanov.P.I_Sidorov.I.I Flower 2003 354 660 Hardcover
+98476 Finance Sidorov.I.I Flower 2005 290 120 Hardcover
+98477 Self-development Sidorov.P.P Rose 2010 780 560 Hardcover
