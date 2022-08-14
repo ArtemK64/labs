@@ -1,0 +1,7 @@
+18973 Ivanov Ivan Ivanovich Pushkina_80 +79777777777 60 60 70
+18974 Petrov Ivan Ivanovich Pushkina_16 +79777777777 60 60 70
+18975 Sidorov Ivan Ivanovich Pushkina_83 +79777777777 80 80 80
+18976 Pechkin Ivan Ivanovich Pushkina_86 +79777777777 100 100 100
+18977 Ivanov Petr Ivanovich Pushkina_70 +79777777777 60 70 60
+18978 Artemov Ivan Ivanovich Pushkina_79 +79777777777 39 40 55
+18979 Ivanov Artem Ivanovich Pushkina_81 +79777777777 90 90 90
