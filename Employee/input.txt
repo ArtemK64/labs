@@ -1,0 +1,11 @@
+Director
+Ivanov Pert Petrovich IT 5
+Petrov Ivan Petrovich IT 3
+Ivanov Pert Petrovich IT 7
+Petrov Ivan Petrovich IT 2
+
+Engineer
+Petrov Pert Petrovich IT 5 Software_engineer
+Ivanov Artem Petrovich IT 3 Software_engineer
+Ivanov Pert Petrovich IT 7 Software_engineer
+Petrov Ivan Petrovich IT 2 Software_engineer

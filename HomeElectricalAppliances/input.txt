@@ -1,0 +1,17 @@
+Computer
+200 Red 3000 false 16
+250 Green 2800 true 8
+200 Red 1800 false 4
+250 Gray 3200 false 16
+
+Microwave
+1000 Red 200 true 10
+700 Blue 180 false 15
+900 Gray 210 true 12
+800 Red 140 false 20
+
+TV
+120 Red 1000 false 30
+110 Blue 900 false 40
+90 Red 1100 false 50
+100 Gray 1200 true 60

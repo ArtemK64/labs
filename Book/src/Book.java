@@ -88,6 +88,7 @@ public class Book {
         this.typeOfBinding = typeOfBinding;
     }
 
+    @Override
     public String toString() {
         return id + " " +
                 title + " " +

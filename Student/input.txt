@@ -1,0 +1,5 @@
+89543 Ivan Ivanov Ivanovich 12.12.2002 Puchkina_11 +79777777777 IT 2 201
+89544 Petr Sidorov Petrovich 10.10.2002 Puchkina_10 +79777777777 Economic 2 211
+89545 Ivan Andreev Ivanovich 01.05.2001 Puchkina_1 +79777777777 IT 3 301
+89546 Artem Sidorov Alekseevich 09.11.2002 Puchkina_13 +79777777777 Economic 2 211
+89547 Ivan Penkin Ivanovich 07.06.2002 Puchkina_2 +79777777777 Economic 2 211

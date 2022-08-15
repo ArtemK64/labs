@@ -1,0 +1,7 @@
+23454 1 60 6 3 Pushkina_10 Sectional 10
+23455 11 45 6 3 Pushkina_19 Sectional 8
+23456 38 90 6 3 Pushkina_71 Sectional 3
+23457 91 50 6 3 Pushkina_80 Sectional 1
+23458 14 80 6 4 Pushkina_90 Sectional 9
+23459 54 60 5 4 Pushkina_17 Sectional 5
+23460 12 90 5 4 Pushkina_98 Sectional 7

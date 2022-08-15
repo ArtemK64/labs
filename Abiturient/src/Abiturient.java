@@ -77,6 +77,7 @@ public class Abiturient {
         this.points = points;
     }
 
+    @Override
     public String toString() {
         return id + " " + lastName + " " + firstName + " " + middleName + " " + address + " " + phoneNumber + " " + Arrays.toString(points).replaceAll("[,\\[\\]]", "");
     }

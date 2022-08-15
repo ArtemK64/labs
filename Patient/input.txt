@@ -1,0 +1,5 @@
+14323 Ivanov Ivan Ivanovich Pushkina_40 +79777777777 104 Flu
+14324 Petrov Ivan Ivanovich Pushkina_12 +79777777777 155 Allergy
+14325 Sidorov Ivan Petrovich Pushkina_4 +79777777777 109 Flu
+14326 Pechkin Ivan Ivanovich Pushkina_19 +79777777777 111 Flu
+14327 Ivanov Petr Ivanovich Pushkina_12 +79777777777 135 Allergy
