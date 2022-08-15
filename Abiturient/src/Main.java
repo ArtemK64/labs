@@ -11,23 +11,21 @@ public class Main {
         }
 
         Abiturient[] applicants = Abiturient.fileReader(countLines);
-        Abiturient.sortPoints(applicants);
-        System.out.println("File content (sorted): ");
-        for (Abiturient abiturient: applicants) {
-            System.out.println(abiturient.toString());
-        }
+        Abiturient abiturient = new Abiturient();
+
+        abiturient.sortPoints(applicants);
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Low point: ");
         int inputLowPoint = scanner.nextInt();
-        Abiturient.print(Abiturient.applicantsWithBadPoints(applicants, inputLowPoint));
+        abiturient.print(abiturient.applicantsWithBadPoints(applicants, inputLowPoint));
 
         System.out.print("Score: ");
         int inputScore = scanner.nextInt();
-        Abiturient.print(Abiturient.applicantsWithSumOfPointsOverInput(applicants, inputScore));
+        abiturient.print(abiturient.applicantsWithSumOfPointsOverInput(applicants, inputScore));
 
         System.out.print("Vacant places: ");
         int inputQty = scanner.nextInt();
-        Abiturient.print(Abiturient.applicantsWithHighScore(applicants, inputQty));
+        abiturient.print(abiturient.applicantsWithHighScore(applicants, inputQty));
     }
 }

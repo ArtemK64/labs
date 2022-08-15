@@ -47,7 +47,6 @@ class BookTest {
                 "98474 Self-development Petrov.I.P Rose 2002 354 250 Hardcover",
                 "98477 Self-development Sidorov.P.P Rose 2010 780 560 Hardcover"));
     }
-
     @Test
     void testPublishedAfterInputYear() {
         Assertions.assertEquals(Book.publishedAfterInputYear(books, -1), List.of());

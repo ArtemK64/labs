@@ -22,9 +22,7 @@ public class Book {
         this.typeOfBinding = typeOfBinding;
     }
 
-    public Book() {
-        super();
-    }
+    public Book() {}
 
     public long getId() {
         return id;

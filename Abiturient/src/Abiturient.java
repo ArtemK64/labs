@@ -19,9 +19,7 @@ public class Abiturient {
         this.phoneNumber = phoneNumber;
         this.points = points;
     }
-    public Abiturient() {
-        super();
-    }
+    public Abiturient() {}
 
     public long getId() {
         return id;
@@ -120,35 +118,33 @@ public class Abiturient {
         }
         return applicants;
     }
-    public static void sortPoints(Abiturient[] applicants) { // sort by points
+    public void sortPoints(Abiturient[] applicants) { // sort by points
         boolean flag = true;
-        if (applicants != null || applicants.length != 0) {
-            while (flag) {
-                flag = false;
-                for (int i = 0; i < applicants.length - 1; i++) {
-                    if (sumOfPoints(applicants[i].points) < sumOfPoints(applicants[i + 1].points)) {
-                        Abiturient temp = applicants[i];
-                        applicants[i] = applicants[i + 1];
-                        applicants[i + 1] = temp;
-                        flag = true;
-                    }
+        while (flag) {
+            flag = false;
+            for (int i = 0; i < applicants.length - 1; i++) {
+                if (sumOfPoints(applicants[i].getPoints()) < sumOfPoints(applicants[i + 1].getPoints())) {
+                    Abiturient temp = applicants[i];
+                    applicants[i] = applicants[i + 1];
+                    applicants[i + 1] = temp;
+                    flag = true;
                 }
             }
         }
     }
-    public static List<String> applicantsWithBadPoints(Abiturient[] applicants, int lowPoint) {
+    public List<String> applicantsWithBadPoints(Abiturient[] applicants, int lowPoint) {
         if (lowPoint < 0 || applicants == null || applicants.length == 0) {
             return List.of();
         }
         List<String> listOfApplicants = new ArrayList<>();
         for (Abiturient abiturient: applicants) {
-            if (!checkPoints(abiturient.points, lowPoint)) {
+            if (!checkPoints(abiturient.getPoints(), lowPoint)) {
                 listOfApplicants.add(abiturient.toString());
             }
         }
         return listOfApplicants;
     }
-    public static boolean checkPoints(int[] points, int lowPoint) {
+    public boolean checkPoints(int[] points, int lowPoint) {
         if (points == null || points.length == 0) {
             return false;
         }
@@ -159,19 +155,19 @@ public class Abiturient {
         }
         return true;
     }
-    public static List<String> applicantsWithSumOfPointsOverInput(Abiturient[] applicants, int score) {
+    public List<String> applicantsWithSumOfPointsOverInput(Abiturient[] applicants, int score) {
         if (score < 0 || applicants == null || applicants.length == 0) {
             return List.of();
         }
         List<String> listOfApplicants = new ArrayList<>();
         for (Abiturient abiturient: applicants) {
-            if (sumOfPoints(abiturient.points) > score) {
+            if (sumOfPoints(abiturient.getPoints()) > score) {
                 listOfApplicants.add(abiturient.toString());
             }
         }
         return listOfApplicants;
     }
-    public static int sumOfPoints(int[] points) {
+    public int sumOfPoints(int[] points) {
         if (points == null || points.length == 0) {
             return 0;
         }
@@ -181,20 +177,20 @@ public class Abiturient {
         }
         return sum;
     }
-    public static List<String> applicantsWithHighScore(Abiturient[] applicants, int n) { // return n applicants with high score.
+    public List<String> applicantsWithHighScore(Abiturient[] applicants, int n) { // return n applicants with high score.
         // If applicant hava the same score with other guy and one of them have enough points to graduate, we will add their too.
         if (n < 0 || applicants == null || applicants.length == 0) {
             return List.of();
         }
         List<String> listOfApplicants = new ArrayList<>();
         for (int i = 0; i < applicants.length; i++) {
-            if (i < n || sumOfPoints(applicants[i].points) == sumOfPoints(applicants[n - 1].points)) {
+            if (i < n || sumOfPoints(applicants[i].getPoints()) == sumOfPoints(applicants[n - 1].getPoints())) {
                 listOfApplicants.add(applicants[i].toString());
             }
         }
         return listOfApplicants;
     }
-    public static void print(List<String> list) {
+    public void print(List<String> list) {
         if (list.isEmpty()) {
             System.out.println("No applicants");
         }

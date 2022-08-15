@@ -66,7 +66,7 @@ public class Array {
         return array;
     }
 
-    public static void swap(int i, int j, Array array) {
+    public void swap(int i, int j, Array array) {
         int temp = array.getElement(i);
         array.setElement(i, array.getElement(j));
         array.setElement(j, temp);
