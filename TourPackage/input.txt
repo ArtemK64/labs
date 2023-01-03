@@ -1,0 +1,29 @@
+Sports
+1000 Plane Paris Dietary 10 Football_Hockey
+900 Plane Paris Dietary 10 Football_Basketball
+1500 Plane Paris Dietary 12 Football_Basketball_Hockey
+780 Train Paris Vegetarian 10 Basketball_Hockey
+
+Shopping
+900 Plane Paris Vegetarian 10 15
+800 Plane Paris Dietary 10 10
+1500 Plane Paris Vegetarian 12 25
+600 Train Paris Dietary 10 10
+
+Cruise
+1000 Ship Paris Dietary 10 Falcon
+800 Ship Paris Dietary 10 Falcon
+1500 Ship Paris Vegetarian 12 Falcon
+1350 Ship Paris Vegetarian 12 Falcon
+
+Excursion
+800 Plane Paris Vegetarian 10 7
+500 Train Paris Vegetarian 10 4
+1100 Plane Paris Dietary 12 8
+700 Train Paris Dietary 10 5
+
+Vacation
+800 Plane Paris Vegetarian 10 Mountains
+600 Train Paris Dietary 10 Mountains
+750 Plane Paris Dietary 10 Mountains
+1400 Plane Paris Vegetarian 12 Mountains

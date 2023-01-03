@@ -1,0 +1,17 @@
+Marmalade
+49 15 CandyFactory 150 Gelatin
+52 34 CandyWorld 100 Gelatin
+55 10 CandyWorld 300 Gelatin
+43 19 CandyFactory 50 Gelatin
+
+Lollipop
+98 1 CandyWorld 30 Apple
+89 2 CandyWorld 120 Strawberries
+88 2 CandyFactory 100 Apple
+98 1 CandyWorld 50 Strawberries
+
+Toffee
+61 12 CandyFactory 250 Solid
+59 10 CandyWorld 100 Solid
+57 8 CandyFactory 180 Soft
+61 18 CandyFactory 190 Solid

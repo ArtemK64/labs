@@ -1,0 +1,23 @@
+Helmet
+300 Gray 1.2 true
+450 Blue 1.5 true
+250 Gray 1.2 true
+190 Red 1.7 false
+
+Gloves
+100 Gray 0.5 Sports
+150 Gray 0.4 Sports
+80 Red 0.8 Sports
+60 Blue 0.4 Sports
+
+Boots
+500 Gray 2.1 Winter
+350 Red 1.6 Summer
+600 Blue 1.3 Summer
+700 Gray 2.4 Winter
+
+Jumpsuit
+1000 Gray 1.1 Leather
+900 Gray 1.9 Leather
+1500 Red 1.4 Leather
+700 Gray 2.2 Leather
